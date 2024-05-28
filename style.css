@@ -1,0 +1,325 @@
+.section-4 img {
+  width: 100%;
+  height: 250px;
+}
+.navbar-brand {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+.nav-link {
+  color: black;
+}
+h5 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+h5 i {
+  color: gold;
+}
+span {
+  margin-right: 10px;
+}
+.span-text {
+  font-size: 12px;
+}
+
+.row .col-lg-4 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.text {
+  position: absolute;
+  top: 5dvh;
+  width: inherit;
+  height: 300px;
+  text-align: center;
+  color: white;
+
+  z-index: 10;
+}
+.text div {
+  margin-bottom: 250px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 2px 50px black;
+}
+
+img {
+  width: 100%;
+  height: 480px;
+  padding: 0;
+  margin: 0px;
+  transition: 0.1s linear;
+  cursor: pointer;
+}
+body {
+  overflow-x: hidden;
+}
+.btn {
+  font-size: 15px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 10px;
+  background-color: white;
+  border-radius: 0 !important;
+}
+/* img:hover{
+  opacity: .7;
+ } */
+
+.section-2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.section-3 {
+  position: relative;
+}
+
+.section-3 img {
+  height: 350px;
+  margin-bottom: 10px;
+}
+.section-3:hover img {
+  opacity: 1;
+}
+
+.img-text {
+  position: absolute;
+  text-align: center;
+  height: inherit;
+  top: 60%;
+  left: 30%;
+  color: rgb(0, 0, 0);
+}
+.img-text h6 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.col div {
+  padding: 10px;
+}
+.col div p {
+  margin-top: -10px;
+}
+.timer {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.btnn {
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  border: none;
+  background-color: rgba(255, 0, 0, 0.627);
+  color: white;
+  padding: 10px;
+}
+.timer div {
+  margin: 10px;
+  text-align: center;
+}
+.timer div p {
+  font-size: 45px;
+  color: red;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding: 10px;
+}
+.section-6 {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px;
+}
+.card {
+  margin: 15px;
+}
+.col-8 p {
+  padding: 0;
+  margin: 0;
+}
+.section-7 .row .col-md-2 img {
+  width: 100%;
+  height: 100px;
+}
+.section-7 .row .col-md-4 .row .col img {
+  width: 100%;
+  height: 135px;
+  opacity: 1;
+}
+.section-7 .row .col-md-4 .row .col {
+  width: 100%;
+  margin: auto;
+  margin: 10px;
+  padding: 0;
+}
+.section-7 {
+  text-align: center;
+
+  background-color: transparent;
+  opacity: 1 !important;
+}
+.section-7 h1 {
+  margin-top: 60px;
+}
+.section-7 p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.end-page {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  background-color: black;
+  padding-top: 100px;
+}
+.end-page .row-1 {
+  width: 50%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.end-page .row-1 .col-8 input {
+  width: 100%;
+  background-color: rgba(233, 29, 29, 0.579);
+  padding: 15px;
+  border: none;
+  margin-bottom: 20px;
+  color: white;
+}
+.end-page .row-1 .col-4 button {
+  width: 100%;
+  border: none;
+  font-size: large;
+  padding: 13px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.627);
+}
+::placeholder {
+  color: white;
+}
+.row-2 {
+  margin-top: 50px;
+}
+.section-8 {
+  width: 90%;
+  margin: auto;
+  height: 100px;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: transparent;
+}
+.section-8 span img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.section-4 .col-md-6 .row .col {
+  position: relative;
+  transition: 0.3s;
+}
+.section-4 .col-md-6 .row .col:hover .overlay {
+  display: flex;
+  transition: 3s;
+}
+
+.section-4 .col-md-6 .row .col .overlay {
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: none;
+  transition: 3s linear !important;
+  font-weight: bold;
+}
+.section-4 .col-md-6 .row .col .overlay span {
+  font-size: 18px;
+  padding: 6px;
+  background-color: tomato;
+  transition: 0.3s linear;
+  border-radius: 4px;
+  cursor: pointer;
+  top: 0;
+}
+.section-4 .col-md-6 .row .col:hover .front-img {
+  display: none;
+}
+.container-fluid {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.container-fluid button {
+  background-color: transparent;
+  border: none;
+  outline: 1px solid red;
+  padding: 10px;
+  width: 200px;
+  font-size: 20px;
+  transition: 0.2s linear;
+  text-align: center;
+}
+.container-fluid button:hover {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.section-4 .col-md-6 .row .col:hover .back-img {
+  display: block;
+}
+.section-4 .col-md-6 .row .col .back-img {
+  display: none;
+}
+
+.section-4 .col-md-6 .row .col .overlay span:hover {
+  background-color: gold;
+}
+.end-page h1 {
+  font-size: 25px;
+  color: white;
+}
+.row-2 .col-lg-3 {
+  color: white;
+}
+.row-2 .col-lg-3 h2 {
+  font-size: 18px;
+  width: 100%;
+}
+.row-2 .col-lg-3 p {
+  font-size: 15px;
+  padding: -10px;
+  margin: 0;
+  text-align: left;
+  cursor: pointer;
+}
+.row-2 .col-lg-3 p:hover {
+  text-decoration: underline;
+}
+.end-page a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.end-page a:hover {
+  text-decoration: underline;
+}
+.end-page .link {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
