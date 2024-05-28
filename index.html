@@ -5,18 +5,17 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="style.mq.css">
-
    <title>Shopper Online</title>
 </head>
 
 <body>
    <nav class="navbar navbar-expand-sm m-2">
       <a href="#" class="navbar-brand">Shopper.</a>
-      <button class="navbar-toggler" data-bs-target="#list" data-bs-toggle="collapse">
+      <button class="navbar-toggler" data-bs-target="#list"  data-bs-toggle="collapse">
          <span class="bi bi-list"></span>
       </button>
       <div class="navbar-collapse collapse" id="list">
@@ -169,7 +168,7 @@
    </div>
    <div class="row section-3">
       <div class="col-lg-4 col-sm-12">
-         <img src="./Image/bulbul-ahmed-p_LzoHuzZck-unsplash.jpg" alt="">
+         <img src="./Image/product-4.jpg" alt="">
 
          <div class="img-text">
             <h6>Best Collections</h6>
@@ -211,9 +210,12 @@
                <img src="./Image/product-5.jpg" class="front-img" alt="">
                <img src="./Image/product-120.jpg" class="back-img" alt="">
                <div class="overlay">
-                  <span class="bi bi-eye"></span>
-                  <span class="bi bi-cart"></span>
-                  <span class="bi bi-heart" data-bs-target="#mymodal-1"></span>
+                  <span  class=" bi bi-eye" title="View" data-bs-toggle="modal" data-bs-target="#myModal-1"></span>
+                  <span class="bi bi-cart" onclick="myfunction()"></span>
+                  <span class="bi bi-heart" onclick="myFunction()"></span>
+                     
+                  
+                                
                </div>
                <div>
                   <h6>Slippers</h6>
@@ -228,9 +230,9 @@
                <img src="./Image/product-6.jpg" class="front-img alt="">
                   <img src=" ./Image/product-121.jpg" class="back-img" alt="">
                <div class="overlay">
-                  <span class="bi bi-eye"></span>
-                  <span class="bi bi-cart"></span>
-                  <span class="bi bi-heart"></span>
+                  <span  class=" bi bi-eye" title="View" data-bs-toggle="modal" data-bs-target="#myModal-2"></span>
+                  <span class="bi bi-cart" onclick="myfunction()"></span>
+                  <span class="bi bi-heart" onclick="myFunction()"></span>
                </div>
                <div>
                   <h6>Ladies Tops</h6>
@@ -248,9 +250,9 @@
                <img src="./Image/product-7.jpg" class="front-img alt="">
                   <img src=" ./Image/product-122.jpg" class="back-img" alt="">
                <div class="overlay">
-                  <span class="bi bi-eye"></span>
-                  <span class="bi bi-cart"></span>
-                  <span class="bi bi-heart"></span>
+                  <span  class=" bi bi-eye" title="View" data-bs-toggle="modal" data-bs-target="#myModal-3"></span>
+                  <span class="bi bi-cart" onclick="myfunction()"></span>
+                  <span class="bi bi-heart" onclick="myFunction()"></span>
                </div>
                <div>
                   <h6>Shoes</h6>
@@ -266,9 +268,9 @@
                <img src="./Image/product-8.jpg" class="front-img alt="">
                   <img src=" ./Image/skirt.jpg" class="back-img" alt="">
                <div class="overlay">
-                  <span class="bi bi-eye"></span>
-                  <span class="bi bi-cart"></span>
-                  <span class="bi bi-heart"></span>
+                  <span  class=" bi bi-eye" title="View" data-bs-toggle="modal" data-bs-target="#myModal-4"></span>
+                  <span class="bi bi-cart" onclick="myfunction()"></span>
+                  <span class="bi bi-heart" onclick="myFunction()"></span>
                </div>
                <h6>Skirts</h6>
                <p>Looking for the Skirts</p>
@@ -287,9 +289,9 @@
                <img src="./Image/product-9.jpg" class="front-img alt="">
                   <img src=" ./Image/tops.jpg" class="back-img" alt="">
                <div class="overlay">
-                  <span class="bi bi-eye"></span>
-                  <span class="bi bi-cart"></span>
-                  <span class="bi bi-heart"></span>
+                  <span  class=" bi bi-eye" title="View" data-bs-toggle="modal" data-bs-target="#myModal-5"></span>
+                  <span class="bi bi-cart" onclick="myfunction()"></span>
+                  <span class="bi bi-heart" onclick="myFunction()"></span>
                </div>
                <div>
                   <h6>Dresses</h6>
@@ -304,14 +306,14 @@
                <img src="./Image/product-10.jpg" class="front-img alt="">
                   <img src=" ./Image/product-123.jpg" class="back-img" alt="">
                <div class="overlay">
-                  <span class="bi bi-eye"></span>
-                  <span class="bi bi-cart"></span>
-                  <span class="bi bi-heart"></span>
+                  <span  class=" bi bi-eye" title="View" data-bs-toggle="modal" data-bs-target="#myModal-6"></span>
+                  <span class="bi bi-cart" onclick="myfunction()"></span>
+                  <span class="bi bi-heart" onclick="myFunction()"></span>
                </div>
                <div>
                   <h6>Handbags</h6>
                   <p>Best leather finish Handbags</p>
-                  <p>&#8377; 799
+                  <p>&#8377;799
                      <span class="badge rounded-0 bg-primary">
                         30% Off
                      </span>
@@ -326,14 +328,14 @@
                <img src="./Image/product-11.jpg" class="front-img alt="">
                   <img src=" ./Image/product-124.jpg" class="back-img" alt="">
                <div class="overlay">
-                  <span class="bi bi-eye"></span>
-                  <span class="bi bi-cart"></span>
-                  <span class="bi bi-heart"></span>
+                  <span  class=" bi bi-eye" title="View" data-bs-toggle="modal" data-bs-target="#myModal-7"></span>
+                  <span class="bi bi-cart" onclick="myfunction()"></span>
+                  <span class="bi bi-heart" onclick="myFunction()"></span>
                </div>
                <div>
                   <h6>Complete Dress</h6>
                   <p>Searching stylish Outfits</p>
-                  <p>&#8377; 1199 <span class="badge rounded-0 bg-primary">
+                  <p>&#8377;1199 <span class="badge rounded-0 bg-primary">
                         50% Off
                      </span></p>
                </div>
@@ -342,9 +344,9 @@
                <img src="./Image/product-12.jpg" class="front-img alt="">
                   <img src=" ./Image/shandal.jpg" class="back-img" alt="">
                <div class="overlay">
-                  <span class="bi bi-eye"></span>
-                  <span class="bi bi-cart"></span>
-                  <span class="bi bi-heart"></span>
+                  <span  class=" bi bi-eye" title="View" data-bs-toggle="modal" data-bs-target="#myModal-8"></span>
+                  <span class="bi bi-cart" onclick="myfunction()"></span>
+                  <span class="bi bi-heart" onclick="myFunction()"></span>
                </div>
                <div>
                   <h6>Sandals</h6>
@@ -596,7 +598,155 @@
 
       </div>
    </footer>
+   <div class="modal fade" id="myModal-1">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header bg-alert">
+               <h5 class="modal-title w-50">Shopper Choice <span class="bi bi-lightning"></span></h5>
+               <button type="button" class="btn-close btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="../Image/product-120.jpg" style="width: 100%; height: 250px;" alt="">
+            </div>
+            <div class="modal-footer bg-dark text-light d-flex justify-content-between">
+               <div type="button" class="btn btn-light" >Buy Now <span> &#8377;399 Only</span></div>
+               <div type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</div>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade" id="myModal-2">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header bg-alert">
+               <h5 class="modal-title w-50">Shopper Choice <span class="bi bi-lightning"></span></h5>
+               <button type="button" class="btn-close btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="../Image/product-121.jpg" style="width: 100%; height: 250px;" alt="">
+            </div>
+            <div class="modal-footer bg-dark text-light d-flex justify-content-between">
+               <div type="button" class="btn btn-light" >Buy Now <span> &#8377;499 Only</span></div>
+               <div type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</div>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade" id="myModal-3">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header bg-alert">
+               <h5 class="modal-title w-50">Shopper Choice <span class="bi bi-lightning"></span></h5>
+               <button type="button" class="btn-close btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="../Image/product-122.jpg" style="width: 100%; height: 250px;" alt="">
+            </div>
+            <div class="modal-footer bg-dark text-light d-flex justify-content-between">
+               <div type="button" class="btn btn-light" >Buy Now <span> &#8377;299 Only</span></div>
+               <div type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</div>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade" id="myModal-4">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header bg-alert">
+               <h5 class="modal-title w-50">Shopper Choice <span class="bi bi-lightning"></span></h5>
+               <button type="button" class="btn-close btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="../Image/skirt.jpg" style="width: 100%; height: 250px;" alt="">
+            </div>
+            <div class="modal-footer bg-dark text-light d-flex justify-content-between">
+               <div type="button" class="btn btn-light" >Buy Now <span> &#8377;599 Only</span></div>
+               <div type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</div>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade" id="myModal-5">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header bg-alert">
+               <h5 class="modal-title w-50">Shopper Choice <span class="bi bi-lightning"></span></h5>
+               <button type="button" class="btn-close btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="../Image/tops.jpg" style="width: 100%; height: 250px;" alt="">
+            </div>
+            <div class="modal-footer bg-dark text-light d-flex justify-content-between">
+               <div type="button" class="btn btn-light" >Buy Now <span> &#8377;999 Only</span></div>
+               <div type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</div>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade" id="myModal-6">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header bg-alert">
+               <h5 class="modal-title w-50">Shopper Choice <span class="bi bi-lightning"></span></h5>
+               <button type="button" class="btn-close btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="../Image/product-123.jpg" style="width: 100%; height: 250px;" alt="">
+            </div>
+            <div class="modal-footer bg-dark text-light d-flex justify-content-between">
+               <div type="button" class="btn btn-light" >Buy Now <span> &#8377;799 Only</span></div>
+               <div type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</div>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade" id="myModal-7">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header bg-alert">
+               <h5 class="modal-title w-50">Shopper Choice <span class="bi bi-lightning"></span></h5>
+               <button type="button" class="btn-close btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="../Image/product-124.jpg" style="width: 100%; height: 250px;" alt="">
+            </div>
+            <div class="modal-footer bg-dark text-light d-flex justify-content-between">
+               <div type="button" class="btn btn-light" >Buy Now <span> &#8377;1199 Only</span></div>
+               <div type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</div>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="modal fade" id="myModal-8">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+            <div class="modal-header bg-alert">
+               <h5 class="modal-title w-50">Shopper Choice <span class="bi bi-lightning"></span></h5>
+               <button type="button" class="btn-close btn-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="../Image/shandal.jpg" style="width: 100%; height: 250px;" alt="">
+            </div>
+            <div class="modal-footer bg-dark text-light d-flex justify-content-between">
+               <div type="button" class="btn btn-light" >Buy Now <span> &#8377;899 Only</span></div>
+               <div type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</div>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+
+   </div>
    <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
 
 </body>

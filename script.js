@@ -21,3 +21,10 @@ var x = setInterval(() => {
 
     }
 }, 1000)
+
+function myfunction(){
+    alert("You Item is added to the cart")
+}
+function myFunction(){
+    alert("Item added to the favourite list")
+}
