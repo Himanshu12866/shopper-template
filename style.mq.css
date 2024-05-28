@@ -1,3 +1,6 @@
+@import "./node_modules/bootstrap/js/dist/modal.js";
+@import "./node_modules/bootstrap/js/dist/collapse.js";
+
 @media screen and (min-width: 1200px) {
   .navbar-nav {
     margin-left: 200px;
@@ -37,6 +40,8 @@
     text-align: center;
   }
 
+
+  
   .text div {
     margin-bottom: 250px;
     font-size: 35px;
@@ -63,9 +68,7 @@
     background-color: black;
   }
 
-  .col-md-4 img {
-    opacity: 0.6;
-  }
+
   .section-3 {
     width: 80%;
     margin: auto;
@@ -115,6 +118,13 @@
 }
 
 @media (max-width: 450px) {
+  body{
+    overflow-x: hidden;
+  }
+  .navbar{
+   
+    padding: 10px;
+  }
   h5 {
     font-size: 12px;
   }

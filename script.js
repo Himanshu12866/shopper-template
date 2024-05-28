@@ -1,3 +1,7 @@
+
+
+
+
 var CountDownDate = new Date('Apr 22, 2030 12:00:00').getTime();
 var x = setInterval(() => {
     var now = new Date().getTime()
@@ -22,9 +26,12 @@ var x = setInterval(() => {
     }
 }, 1000)
 
+
+
 function myfunction(){
     alert("You Item is added to the cart")
 }
 function myFunction(){
     alert("Item added to the favourite list")
 }
+

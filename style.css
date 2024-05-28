@@ -2,6 +2,12 @@
   width: 100%;
   height: 250px;
 }
+.navbar{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+}
 .navbar-brand {
   color: black;
   font-weight: bold;
@@ -76,30 +82,10 @@ body {
   text-align: center;
   margin-top: 50px;
 }
-.section-3 {
-  position: relative;
-}
 
-.section-3 img {
-  height: 350px;
-  margin-bottom: 10px;
-}
-.section-3:hover img {
-  opacity: 1;
-}
 
-.img-text {
-  position: absolute;
-  text-align: center;
-  height: inherit;
-  top: 60%;
-  left: 30%;
-  color: rgb(0, 0, 0);
-}
-.img-text h6 {
-  font-size: 20px;
-  font-weight: bold;
-}
+
+
 .col div {
   padding: 10px;
 }
@@ -322,4 +308,26 @@ body {
 .end-page .link {
   margin-top: 50px;
   margin-bottom: 20px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 10px 0 0 ;
+  transition: .1s linear;
+}
+.card .card-img-overlay{
+  position: absolute;
+  top: 65%;
+  color: rgb(255, 255, 255);
+  font-family: serif;
+  font-weight: bold;
+  
+}
+.card .card-img-overlay .card-text span:hover {
+  transform: translateX(10px);
+}
+ .card-title{
+  font-size:2rem;
 }
