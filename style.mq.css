@@ -1,18 +1,16 @@
-@import "./node_modules/bootstrap/js/dist/modal.js";
-@import "./node_modules/bootstrap/js/dist/collapse.js";
 
 @media screen and (min-width: 1200px) {
   .navbar-nav {
     margin-left: 200px;
   }
   .navbar-brand {
-    margin-left: 100px !important;
+    margin-left: 50px !important;
   }
   .nav-link {
     margin-left: 30px;
   }
   .span-item {
-    margin-left: 200px;
+    margin-left: 100px;
   }
   .span-item span {
     padding-right: 20px;
