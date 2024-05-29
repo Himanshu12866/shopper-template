@@ -8,9 +8,7 @@ body{
   right: 0;
   scroll-behavior: smooth;
 }
-html{
-  
-}
+
 .navbar{
   position: sticky;
   top: 0;
