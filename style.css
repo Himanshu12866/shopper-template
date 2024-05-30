@@ -346,7 +346,7 @@ body {
 }
 .hover-text{
   position: absolute;
-  color:rgb(0, 255, 213);
+  color:rgb(255, 170, 0);
   font-weight: bold;
   opacity: 0;
   padding: 10px;
