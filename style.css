@@ -338,3 +338,20 @@ body {
  .card-title{
   font-size:2rem;
 }
+.section-7 .row .col-md-4 .row .col{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hover-text{
+  position: absolute;
+  color:rgb(0, 255, 213);
+  font-weight: bold;
+  opacity: 0;
+  padding: 10px;
+  transition: 0.3s;
+}
+.section-7 .row .col-md-4 .row .col:hover .hover-text{
+  opacity: 1;
+}
