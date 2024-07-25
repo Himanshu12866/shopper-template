@@ -23,7 +23,7 @@
     height: 300px;
     left: 35%;
     top: 15%;
-    /* color: white; */
+   
 
     z-index: 10;
   }
@@ -200,7 +200,7 @@
   }
   .section-6 {
     width: 100% !important;
-    /* margin: 10px !important; */
+   
   }
   .section-7 .row .col-md-4 .row .col img {
     width: 100%;
